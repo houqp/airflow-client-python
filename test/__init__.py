@@ -14,26 +14,4 @@
 # KIND, either express or implied.  See the License for the
 # specific language governing permissions and limitations
 # under the License.
-# https://cwiki.apache.org/confluence/display/INFRA/.asf.yaml+features+for+git+repositories
-github:
-  description: "Apache Airflow - OpenApi Client for Python"
-  homepage: https://airflow.apache.org/
-  labels:
-    - airflow
-    - apache
-    - apache-airflow
-    - apache-airflow-client
-    - python
-  features:
-    # Enable issues management
-    issues: false
-    # Enable projects for project management boards
-    projects: false
-  enabled_merge_buttons:
-    squash: true
-    merge: false
-    rebase: false
-notifications:
-  commits:      commits@airflow.apache.org
-  issues:       commits@airflow.apache.org
-  pullrequests: commits@airflow.apache.org
+
